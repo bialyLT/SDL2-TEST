@@ -4,4 +4,5 @@
 
 # execute to compile
 
-`gcc -o jueguito jueguito.c `sdl2-config --cflags --libs` -lSDL2_image`
+`gcc -o jueguito jueguito.c \`sdl2-config --cflags --libs\` -lSDL2_image`
+
