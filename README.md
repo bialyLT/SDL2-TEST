@@ -4,6 +4,8 @@
 
 # execute to compile
 
-gcc -o jueguito jueguito.c /`/sdl2-config --cflags --libs/`/ -lSDL2_image
+gcc -o jueguito jueguito.c sdl2-config --cflags --libs -lSDL2_image
+
+sdl2-config --cflags --libs van entre comillas graves
 
 
